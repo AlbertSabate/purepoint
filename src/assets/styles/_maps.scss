@@ -1,0 +1,69 @@
+$spacer:   1rem;
+$spacer-x: $spacer;
+$spacer-y: $spacer;
+$spacers: (
+  0: (
+    x: 0,
+    y: 0
+  ),
+  1: (
+    x: ($spacer-x * .25),
+    y: ($spacer-y * .25)
+  ),
+  2: (
+    x: ($spacer-x * .5),
+    y: ($spacer-y * .5)
+  ),
+  3: (
+    x: ($spacer-x * .75),
+    y: ($spacer-y * .75)
+  ),
+  4: (
+    x: $spacer-x,
+    y: $spacer-y
+  ),
+  5: (
+    x: $spacer-x * 1.25,
+    y: $spacer-y * 1.25
+  ),
+  6: (
+    x: $spacer-x * 1.5,
+    y: $spacer-y * 1.5
+  ),
+  7: (
+    x: ($spacer-x * 1.75),
+    y: ($spacer-y * 1.75)
+  ),
+  8: (
+    x: ($spacer-x * 2),
+    y: ($spacer-y * 2)
+  ),
+  9: (
+    x: ($spacer-x * 2.5),
+    y: ($spacer-y * 2.5)
+  ),
+  10: (
+    x: ($spacer-x * 3),
+    y: ($spacer-y * 3)
+  ),
+  11: (
+    x: ($spacer-x * 3.5),
+    y: ($spacer-y * 3.5)
+  ),
+  12: (
+    x: ($spacer-x * 4),
+    y: ($spacer-y * 4)
+  ),
+  13: (
+    x: ($spacer-x * 4.5),
+    y: ($spacer-y * 4.5)
+  ),
+  14: (
+    x: ($spacer-x * 5),
+    y: ($spacer-y * 5)
+  ),
+  15: (
+    x: ($spacer-x * 6),
+    y: ($spacer-y * 6)
+  )
+);
